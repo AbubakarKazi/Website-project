@@ -1,0 +1,590 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background:white;
+    
+}
+.nav-img{
+    height:100px;
+    width: 30%;
+    background:white;
+    float: left;
+}
+.logo{
+    height:100px;
+    width: 300px;
+}   
+.logo1{
+    height:70px;
+    width: 70px;
+    margin-bottom: 15px;    
+}    
+.nav-first{
+    height: 100px;
+    width: 20%;
+    background:white;
+    float: left;
+    display: flex;
+}
+.nav-second{
+    height: 100px;
+    width: 15%;
+    background:white;
+    float: left;
+    display: flex;
+}
+.nav-third{
+    height: 100px;
+    width: 20%;
+    background:white;
+    float: left;
+    display: flex;
+}
+.nav-fourth{
+    height: 100px;
+    width: 10%;
+    background: white;
+    float: left;
+    display: flex;
+    justify-content: white;
+}
+.head{
+    height:100px;
+    width: 50px;
+    background: white;
+}
+.head1{
+    height:100px;
+    width:80%; 
+}
+.fa-hospital-user{
+    font-size: 35px;
+    padding-top: 40px;
+    padding-left: 10px;      
+}
+.heading{
+    padding-top: 40px;
+}
+.head2{
+height: 100px;
+width: 60px;
+background: white;
+}
+.head3{
+height:100px;
+width: 75%;
+background: white;
+}
+.heading2{
+    padding-top: 40px;
+}
+.fa-phone-volume{
+    font-size: 35px;
+    padding-top: 40px;
+    padding-left: 5px;
+}
+.icon1{
+    height: 100px;
+    width: 60px;
+    background:white;
+}
+.head4{
+    height: 100px;
+    width: 80%;
+    background: white;
+}
+.fa-envelope-open-text{
+    font-size: 35px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.heading3{
+    padding-top: 40px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header ul li{
+    float: left;
+    margin: 35px;
+    list-style: none;
+    color: black;
+}
+.ul li a{
+    color: aliceblue;
+}
+.header ul a:hover{
+    color:red
+}
+.searchbar{
+    height: 50px;
+    width:22%;
+    background: white;
+    float: left;
+    display: flex;
+    justify-content: left;
+    border-radius: 20px;
+    border: solid 2px black;
+}
+.fa-magnifying-glass{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#search{
+    margin-left: 10px;
+    font-size: 20px;
+    background: transparent;
+}
+.main{
+    height:500px;
+    width: 100%;
+    background-image: url(images.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.main ul li{
+    float:left ;
+    list-style: none;
+    margin: 15px;
+    padding-top: 50px;
+    color: red;
+}
+.maintag{
+    color: aliceblue;
+    padding-top: 200px;
+    font-size: 40px;
+    padding-left: 50px;
+}
+.maain{
+    color:aliceblue;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.btn-lg{
+margin-left: 200px;
+margin-top: 80px;
+font-size: 20px;
+border-radius: 10%;
+background: blue;
+height:50px;
+width: 200px;
+}
+.section {
+    height:50px;
+    width: 100%;
+    background: white;
+}
+.section ul li{
+    float: left;
+    list-style: none;
+    line-height: 20px;
+    margin: 15px;
+    padding-left: 60px;
+}
+
+.section1{
+    height:500px;
+    width: 100%;
+    background: black;
+}
+.section2{
+    height: 500px;
+    width: 60%;
+    background: white;
+    float: left;
+}
+.section2 h1{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.section2 h3{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.section3{
+    height:500px;
+    width: 40%;
+    background: white;
+    float: left;
+}
+.section_img{
+    height:400px;
+    width: 100%;
+    background-image: url(main.jpg);
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+.section4{
+    height: 1000px;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec-content1{
+    height: 500px;
+    width: 100%;
+    background: white;
+}
+.sec-content1 h1{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.sec-content h3{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.sec-content h1{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.sec-content h3{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.sec2{
+    height:500px;
+    width:40%;
+    background: pink;
+    float: left;
+}
+.form{
+    height:300px;
+    width:60%;
+    background: white;
+    border: 2px solid black;
+}
+.form h1 {
+padding-left: 20px;
+color: blue;
+}
+.form h4{
+    padding-left: 20px;
+}
+#email{
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#number{
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#password{
+    font-size: 20px;
+    margin: 5px;
+    margin-left:20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#text{
+ font-size:20px ;
+ margin: 5px;
+ margin-left: 20px;
+ border: 2px solid black;
+ border-radius: 5px;
+}
+.enquiry{
+    font-size: 20px;
+    height:50px;
+    width:250px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: blue;
+    border-radius: 5px;
+}
+.sec2{
+    height:500px;
+    width:100%;
+    background: white;
+}
+.sec-content2{
+    height: 500px;
+    width: 60%;
+    background:white;
+    float: left;
+}
+.sec-content2 h1{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.sec-content2 h3{
+    padding-top: 30px;
+    justify-content: center;
+    padding-left: 30px;
+}
+.form{
+    height:350px;
+    width:22%;
+    float: left;
+    background:white;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.sec3{
+    height:500px;
+    width:100%;
+    background:white;
+}
+.sec3 h1{
+    padding-top: 100px;
+    padding-left: 20px;
+    }
+.sec3 h3{
+    padding-top: 30px;
+    justify-content: center;
+    padding-left: 30px;
+}
+.sec4{
+    height:500px;
+    width:100%;
+    background:white;
+}
+.sec4 h1{
+    padding-top: 100px;
+    padding-left: 20px;
+    }
+.sec4 h3{
+    padding-top: 30px;
+    justify-content: center;
+    padding-left: 30px;
+}
+.sec5{
+    height:500px;
+    width:100%;
+    background:white;
+}
+.sec5 h1{
+    padding-top: 100px;
+    padding-left: 20px;
+    }
+.sec5 h3{
+    padding-top: 30px;
+    justify-content: center;
+    padding-left: 30px;
+}
+.container{
+    height:500px;
+    width:100%;
+    background:wheat;
+}
+.sec-content1{
+    height:700px;
+    width: 100%;
+    background: white;
+}
+.text1{
+    height: 300px;
+    width: 100%;
+    background: #42b9f5;
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 3px solid black;
+}
+.footer1{
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin: 0px;
+    border: 2px solid black;
+}
+.footer2{
+    height: 300px;
+    width: 20%;
+    float: left;
+    border: 2px solid black;
+}
+.footer3{
+    height: 300px;
+    width: 20%;
+    float: left;
+    border: 2px solid black;
+}
+.footer4{
+    height: 300px;
+    width: 20%;
+    float: left;
+    border: 2px solid black;
+}
+.footer1 ol li{
+    margin-left: 150px;
+    columns: white;
+    font-size: 20px;
+}
+.footer2 ol li{
+    margin-left: 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.footer3 ol li{
+    margin-left: 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.footer4 ol li{
+    margin-left: 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.footer5{
+    height: 300px;
+    width: 20%;
+    border: 2px solid black;
+    float: left;
+}
+.footer5 img{
+    height: 100px;
+    width: 300px;   
+}
+.footer6{
+height:400px;
+width: 500px;
+float: left;
+}
+.footer6 img{
+    height:200px;
+    width: 400px;
+}
+
+.footer7{
+    height:200px;
+    width: 1000px;
+    background: blue;
+    float: left;
+    
+}
+.this{
+    height: 200px;
+    width: 100%;
+}
+.footer7 p{
+    color: white;
+}
+.fooo{
+    height:100px;
+    width: 100%;
+    background:skyblue;
+}
+.fooo ul li{
+    list-style: none;
+    float: left;
+    margin-left: 60px;
+    margin: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

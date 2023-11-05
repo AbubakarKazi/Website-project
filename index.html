@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   
+    <link rel="stylesheet" href="web.js">
+    <style>
+        .accordion {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: #ccc; 
+        }
+        .h2{
+            text-align: center;
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+        }
+        
+        </style>
+    
+        
+</head>
+<body>
+    <div class="navbar" id="nav">
+        
+       <div class="nav-img">
+       
+        <img src="logo.jpg" alt="logo" class="logo">
+        <img src="logo1.jpg" alt="logo1" class="logo1">
+        
+</div>
+        <div class="nav-first">
+            <div class="head">
+            <i class="fa-solid fa-hospital-user"></i>
+            </div>
+        <div class="head1">
+           <h4 class="heading">Second Medical Opinion</h4>
+           <h3 style="font-size: 20px;" class="heading1"> <a href="#e">Book consultation</a></h3>
+          
+        </div>
+        </div>
+
+        
+        <div class="nav-second">
+            <div class="head2">
+                <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="head3">
+             <h4 class="heading2">Call Us On</h4>
+             <h3 style="font-size: 20px;" class="headiing"><a href="#e">8879967457</a></h3>
+            </div>
+        </div>
+
+        <div class="nav-third">
+        <div class="icon1">
+            
+            <i class="fa-solid fa-envelope-open-text"></i>
+        </div>
+        <div class="head4">
+            <h4 class="heading3">Email us on</h4>
+            <h3 style="font-size: 20px;" class="heading4"><a href="#e">info.mediaretreats.com</a></h3>
+        </div>
+        </div>
+
+        <div class="nav-fourth" id="centerDiv">
+        
+            <select name="country" id="country">
+                <option value="uk">United kingdom</option>
+                <option value="America">America</option>
+                <option value="india">India</option>
+                <option value="uae">UAE</option>
+            </select>
+    
+    
+        </div>
+    </div>
+
+    <div class="header">
+        
+        <ul >
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="#b">Treatment</a><i class="fa-solid fa-plus"></i></li>
+            <li><a href="https://www.google.com/maps/dir//GHC+Hospitals/data=!4m8!4m7!1m0!1m5!1m1!1s0x3be7bf3ccf30ae6d:0xeec9883ede578675!2m2!1d73.0293275!2d19.1584847">Destination</a><i class="fa-solid fa-plus"></i></li>
+            <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Hospital</a></li>
+            <li><a href="#c">FAQs</a></li>
+            <li><a href="#d">Blogs</a></li>
+            <li><a href="">REquest A quote</a></li>
+        </ul>
+    <div class="searchbar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text"  name="search" id="search" placeholder=" Search">
+    </div>
+    </div>
+    
+    <div class="main">
+        <ul class="main_content">
+            <li><a href="#a">Home</a><i class="fa-solid fa-chevron-right"></i></li>
+            <li><a href="#b">Treatment</a><i class="fa-solid fa-chevron-right"></i></li>
+            <li><a href="#9">Orthopedic</a><i class="fa-solid fa-chevron-right"></i></li>
+            <li><a href="#10">Knee Replacement</a></li>
+        </ul>
+        <h1 class="maintag">Total Knee Replacement</h1>
+        <h2 class="maain">Total Knee Replacement is a surgery t rmeove  and the replace the whole damaged knwee joint artificial joint.</h2>
+
+        <button class="btn-lg">Enquire Now</button>
+    </div>
+    <div class="section">
+        <ul>
+            <li><a href="#1">Overview</a></li>
+            <li><a href="#2">Eligibility</a></li>
+            <li><a href="#3">Preparation</a></li>
+            <li><a href="#b">About Treatment</a></li>
+            <li><a href="#4">Post-Treatment Care</a></li>
+            <li><a href="#5">Recovery tips</a></li>
+            <li><a href="#c">FAQs</a></li><hr>
+            <li><a href="#6">Patient stories</a></li>
+        </ul>
+        
+    </div>
+    <div class="section1">
+    <div class="section2" <a href="file:///C:/Users/abubakar/OneDrive/Desktop/Website/index.html#1"></a>>
+        <h1>Treatment Overview.</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore, repellat quae eos ex, explicabo delectus porro assumenda at ad veritatis quas, tenetur magni quo ullam asperiores ratione quasi eius!<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit aliquid ad vero earum reprehenderit at laudantium sunt esse numquam magnam officiis expedita laboriosam deserunt, error fuga cum illo enim!
+            <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aperiam tenetur hic architecto quis aliquam vero eius rerum! Veritatis iste quo cumque voluptatum vel debitis quod? Voluptatem esse nisi distinctio.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, optio est excepturi dicta, illum eaque repudiandae iste quibusdam dolor distinctio in et magnam quam cumque autem numquam. Itaque, dolore numquam?
+        </h3>
+    </div>
+    
+
+    <div class="section3" <a href="#10"></a>>
+        <div class="section_img">
+
+        </div>
+    </div>
+</div><hr>
+
+<div class="section4">
+    <div class="sec-content">
+        <div class="sec-content1" <a href="file:///C:/Users/abubakar/OneDrive/Desktop/Website/index.html#2"></a>>
+            <h1>Eligibility Foe Treatment</h1>
+<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore, repellat quae eos ex, 
+explicabo delectus porro assumenda at ad veritatis quas, tenetur magni quo ullam asperiores ratione quasi 
+eius!<br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit aliquid ad vero earum 
+reprehenderit at laudantium sunt esse numquam magnam officiis expedita laboriosam deserunt, error fuga 
+cum illo enim!
+    <br>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aperiam tenetur hic architecto 
+quis aliquam vero eius rerum! Veritatis iste quo cumque voluptatum vel debitis quod? Voluptatem esse 
+nisi distinctio.
+    <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, optio est excepturi dicta, illum eaque 
+repudiandae iste quibusdam dolor distinctio in et magnam quam cumque autem numquam. Itaque, dolore 
+numquam?
+</h3>
+        </div>
+    </div><hr>
+    <div class="sec2">
+        <div class="sec-content2" <a href="#3"></a>>
+            <h1>Preparation before Treatment.</h1>
+<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore, repellat quae eos ex, 
+explicabo delectus porro assumenda at ad veritatis quas, tenetur magni quo ullam asperiores ratione quasi 
+eius!<br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit aliquid ad vero earum 
+reprehenderit at laudantium sunt esse numquam magnam officiis expedita laboriosam deserunt, error fuga 
+cum illo enim!
+    <br>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aperiam tenetur hic architecto 
+quis aliquam vero eius rerum! Veritatis iste quo cumque voluptatum vel debitis quod? Voluptatem esse 
+nisi distinctio.
+    <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, optio est excepturi dicta, illum eaque 
+repudiandae iste quibusdam dolor distinctio in et magnam quam cumque autem numquam. Itaque, dolore 
+numquam?
+</h3>
+        </div>
+    <hr>
+    
+        <div class="form">
+            <form action="method">
+                <h1><i>Need Help?</i></h1>
+                <br>
+                <h4><i>Just let me know We will be happy to assist you.</i></h4>
+                <br>
+                <input type="email" placeholder="E-mail" id="email">
+                <br>
+                <input type="password" placeholder="Password" id="password">
+                <br>
+                <input type="number" placeholder="Phone NUmber" id="number">
+                <br>
+                <input type="text" placeholder="Describe your Treatment Requirement" id="text">
+                <br>
+                <input type="button" value="Send Enquiry" name="send Enquiry" id="btn-xl" class="enquiry">
+            </form>
+        </div>
+    </div>
+</div><hr>
+
+
+   <div class="sec3" <a href="#b"></a>>
+    <h1>About Treatment.</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore, repellat quae eos ex, 
+    explicabo delectus porro assumenda at ad veritatis quas, tenetur magni quo ullam asperiores ratione quasi
+    eius!<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit aliquid ad vero earum 
+    reprehenderit at laudantium sunt esse numquam magnam officiis expedita laboriosam deserunt, error fuga 
+    cum illo enim!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aperiam tenetur hic architecto 
+    quis aliquam vero eius rerum! Veritatis iste quo cumque voluptatum vel debitis quod? Voluptatem esse 
+    nisi distinctio.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, optio est excepturi dicta, illum eaque
+    repudiandae iste quibusdam dolor distinctio in et magnam quam cumque autem numquam. Itaque, dolore 
+    numquam?
+    </h3>
+   </div><hr>
+
+   <div class="sec4" <a href="#4"></a>>
+    <h1>Post-Treatment Care-treatment.</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore, repellat quae eos ex, 
+    explicabo delectus porro assumenda at ad veritatis quas, tenetur magni quo ullam asperiores ratione quasi
+    eius!<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit aliquid ad vero earum 
+    reprehenderit at laudantium sunt esse numquam magnam officiis expedita laboriosam deserunt, error fuga 
+    cum illo enim!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aperiam tenetur hic architecto 
+    quis aliquam vero eius rerum! Veritatis iste quo cumque voluptatum vel debitis quod? Voluptatem esse 
+    nisi distinctio.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, optio est excepturi dicta, illum eaque
+    repudiandae iste quibusdam dolor distinctio in et magnam quam cumque autem numquam. Itaque, dolore 
+    numquam?
+    </h3>
+   </div><hr>
+
+   <div class="sec5" <a href="#5"></a>>
+    <h1>Treatment Recovery Tips.</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore, repellat quae eos ex, 
+    explicabo delectus porro assumenda at ad veritatis quas, tenetur magni quo ullam asperiores ratione quasi
+    eius!<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit aliquid ad vero earum 
+    reprehenderit at laudantium sunt esse numquam magnam officiis expedita laboriosam deserunt, error fuga 
+    cum illo enim!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aperiam tenetur hic architecto 
+    quis aliquam vero eius rerum! Veritatis iste quo cumque voluptatum vel debitis quod? Voluptatem esse 
+    nisi distinctio.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, optio est excepturi dicta, illum eaque
+    repudiandae iste quibusdam dolor distinctio in et magnam quam cumque autem numquam. Itaque, dolore 
+    numquam?
+    </h3>
+   </div><hr>
+   <h2>Treatment FAQs</h2>
+
+   <button class="accordion"><i class="fa-solid fa-plus"></i>  How do I know gthe clinic i am searching is verified? </button>
+   <div class="panel">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quibusdam provident deserunt voluptates excepturi tempore ex fugiat architecto in a, odio ab voluptas, accusamus laborum animi maiores velit. Impedit, eius.
+   </div>
+   
+   <button class="accordion"><i class="fa-solid fa-plus"></i>  I can't travel alone so can some family member or friend of mine accopamying me?</button> 
+   <div class="panel">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, repellendus? Quas, obcaecati animi? Libero magni numquam optio sunt ex laboriosam provident quas molestiae aliquid. Ex libero esse quia placeat consequatur.
+   </div>
+   
+   <button class="accordion"><i class="fa-solid fa-plus"></i>  Can i see the doctor before i decide  and what about my post recovery?</button>
+   <div class="panel">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequatur nobis illo amet doloribus qui officiis pariatur distinctio! Nam odio, ad veniam excepturi mollitia quos commodi quasi labore repudiandae nisi!
+   </div>
+   
+   <button class="accordion"><i class="fa-solid fa-plus"></i>  How do i share my reports  i decide  and what about my post recovery?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia rem ad nihil dolorum eius ea facere, maxime eligendi at reiciendis ut doloribus, eum saepe voluptatem? Non nihil sint explicabo odit.
+</div>
+
+<div class="slider owl-carousel">
+    <div class="card">
+       <div class="img">
+          <img src="" alt="">
+       </div>
+       <div class="content" style="background-color: black;color: white;">
+          <div class="title">
+             <h1>Briana Tozour</h1>
+          </div>
+          <div class="sub-title">
+             Graphic Designer
+          </div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quod? Suscipit ea consequuntur neque sed est. Reprehenderit, animi cupiditate. Sit porro natus eum officia eveniet doloremque quaerat ducimus quos repellendus!
+          </p>
+          <div class="btn">
+             <button>Submit</button>
+          </div>
+       </div>
+    </div>
+    <div class="card">
+       <div class="img">
+          <img src="#" alt="">
+       </div>
+       <div class="content" style="background-color: black;color: white;">
+          <div class="title">
+             <h1>Pricilla Preez</h1>
+          </div>
+          <div class="sub-title">
+             Web Developer
+          </div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur praesentium dolorum facere maiores, nemo, cum vel voluptas modi sequi officiis beatae? Natus consectetur reiciendis id soluta omnis harum beatae dolorum!
+          </p>
+          <div class="btn">
+             <button>Submit</button>
+          </div>
+       </div>
+    </div>
+    <div class="card">
+       <div class="img">
+          <img src="#" alt="">
+       </div>
+       <div class="content" style="background-color: black;color: white;">
+          <div class="title">
+             <h1>Eliana Maia</h1>
+          </div>
+          <div class="sub-title">
+             App Developer
+          </div>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit modi dolorem quis quae animi nihil minus sed unde voluptas cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam corporis blanditiis eaque eveniet dolor soluta veritatis laudantium sequi recusandae. Eaque cum nulla neque quaerat facilis ullam alias vitae porro?
+          </p>
+          <div class="btn">
+             <button>Submit</button>
+          </div>
+       </div>
+    </div>
+ </div>
+
+ <div class="container" <a href="#9"></a>>
+<h3 style="padding-left: 800px;"><i>Doctor</i></h3>
+<h1 style="padding-left: 700px;"><b>Top Orthopedic Doctors</b></h1>
+<div class="row">
+    <div class="large-12 columns">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="img"></div>
+          <div class="con"></div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="doc1.jpg" alt="">
+            </div>
+            <div class="con">
+                <h1>Ramesh patil</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="doc1.jpg" alt="">
+            </div>
+            <div class="con">
+                <h1>Ramesh patil</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="doc1.jpg" alt="">
+            </div>
+            <div class="con">
+                <h1>Ramesh patil</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="doc1.jpg" alt="">
+            </div>
+            <div class="con">
+                <h1>Ramesh patil</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="doc1.jpg" alt="">
+            </div>
+            <div class="con">
+                <h1>Ramesh patil</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="doc1.jpg" alt="">
+            </div>
+            <div class="con">
+                <h1>Ramesh patil</h1>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="sec-content1">
+    <h3 style="color: palevioletred; padding-left: 800px;"><i>Hospitals</i></h3>
+    <h1 style="padding-left: 700px;"><b>REcommended Hospital</b></h1>
+    <div class="row">
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="img"></div>
+              <div class="con"></div>
+            </div>
+            <div class="item">
+                <div class="img">
+                    <img src="kalsekar.jpg" alt="">
+                </div>
+                <div class="con">
+                    <h1>Kalsekar Hospital</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img">
+                    <img src="kalsekar.jpg" alt="">
+                </div>
+                <div class="con">
+                    <h1>Kalsekar Hospital</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img">
+                    <img src="kalsekar.jpg" alt="">
+                </div>
+                <div class="con">
+                    <h1>Kalsekar Hospital</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img">
+                    <img src="kalsekar.jpg" alt="">
+                </div>
+                <div class="con">
+                    <h1>Kalsekar Hospital</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img">
+                    <img src="kalsekar" alt="">
+                </div>
+                <div class="con">
+                    <h1>Kalsekar Hospital</h1>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img">
+                    <img src="kalsekar" alt="">
+                </div>
+                <div class="con">
+                    <h1>Kalsekar Hospital</h1>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 style="padding-left: 500px;">Don't hesitate contact us for better help and services <a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Kalsekar Hospital</a></h2>
+ </div>
+
+ <div class="text1">
+<h3 style="padding-top: 100px;padding-left: 600px;">Stay Healthy and strong to enjoy life</h3>
+<h1 style="padding-left: 500px;">We have team of healthcare experts</h1>
+<button style="height: 50px;width: 150px; margin-top: 30px;margin-left: 650px;font-size: 20px;"> <a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Get in Touch</a></button>
+<h2 style="padding-left: 650px;"> <a href="+91 8879982407">+91 8879982407</a></h2>
+ </div>
+ 
+   <footer class="footer">
+    <footer class="footer1">
+    <ol>
+        <h4 style="padding-left: 120px; font-size: 30px;">Important link</h4>
+        <li><a href="#a">Home</a></li>
+        <li><a href="#b">About us</a></li>
+        <li><a href="#c">FAQs</a></li>
+        <li><a href="#d">Blog</a></li>
+        <li><a href="#e">Contact Us</a></li>
+    </ol>
+</footer>
+
+<footer class="footer2">
+    <ol>
+        <h4 style="padding-left: 30px;font-size: 30px;">Top Hospitals</h4>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Kalsekar Hospital</a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Kalsekar Hospital</a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Kalsekar Hospital</a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Kalsekar Hospital</a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Kalsekar Hospital</a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Kalsekar Hospital</a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Kalsekar Hospital</a></li>
+    </ol>
+</footer>
+
+<footer class="footer3">
+    <ol>
+    <h4 style="font-size: 30px;">Specially Treatment</h4>
+    <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Heart Specalist</a></li>
+    <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Heart Specalist</a></li>
+    <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Heart Specalist</a></li>
+    <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Heart Specalist</a></li>
+    <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Heart Specalist</a></li>
+    <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Heart Specalist</a></li>
+    <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Heart Specalist</a></li>
+    <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Heart Specalist</a></li>
+</ol>
+</footer>
+
+<footer class="footer4">
+    <ol>
+        <h4 style="font-size: 30px;">Medical Tourism</h4>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Medical Tourism In Thane </a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Medical Tourism In Thane </a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Medical Tourism In Thane </a></li>
+        <li><a href="https://kalsekar-memorial-ghc-hospitals.business.site/">Medical Tourism In Thane </a></li>
+    </ol>
+</footer>
+
+<footer class="footer5">
+    <img src="logo.jpg" alt="logo">
+    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="font-size: 50px; padding-left: 60px;padding-top: 50px;"></i></a>
+    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="font-size: 50px;padding-top: 50px;"></i></a>
+    <a href="https://about.twitter.com/"><i class="fa-brands fa-twitter" style="font-size: 50px;padding-top: 50px;"></i></a>
+</footer>
+
+   </footer>
+<div class="this">
+   <div class="footer6">
+    <img src="logo.jpg" alt="logo">
+   </div>
+
+   <div class="footer7">
+     
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit alias voluptatum nemo magnam necessitatibus ipsa 
+    hic perferendis reiciendis sed iusto provident in, dicta, inventore sunt laborum libero veniam nobis impedit 
+    laudantium recusandae voluptatem. Rem delectus odit tempore nobis dolorem modi ipsam sapiente, vel repellat 
+    perferendis corrupti sunt dolore, necessitatibus voluptates quia! Sint impedit at eveniet eius quod dolore alias odio 
+    voluptas dolores velit. Omnis voluptatum obcaecati a aperiam corrupti sequi consequuntur. Exercitationem facere quia 
+    sed excepturi. Laborum eos inventore eaque laudantium recusandae incidunt quam atque sint. Officiis libero facilis 
+    ates ullam recusandae ratione veritatis repellendus facilis tempora placeat voluptatibus! a ea, dicta officia enim? 
+    Esse assumenda quo nemo facere, tenetur atque, voluptate a reiciendis quaerat eaque deserunt. Quidem obcaecati  eos 
+    odit, expedita iet , rupti ab andae voluptate umenda quas harum m minima quidem nulla id. ur, tur ut nostrum fuga  
+        </p>
+
+   </div>
+</div>
+
+   <div class="fooo">
+<ul>
+    <li>Copyright  material of hospital 2020 aafiya hospital</li>
+    <li>Terms and condition</li>
+    <li>Privacy policy</li>
+</ul>
+
+   </div>
+
+
+   
+   <script>
+    var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+
+  $(".slider").owlCarousel({
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000, //2000ms = 2s;
+           autoplayHoverPause: true,
+         });
+        
+   var acc = document.getElementsByClassName("accordion");
+   var i;
+   
+   for (i = 0; i < acc.length; i++) {
+     acc[i].addEventListener("click", function() {
+       this.classList.toggle("active");
+       var panel = this.nextElementSibling;
+       if (panel.style.display === "block") {
+         panel.style.display = "none";
+       } else {
+         panel.style.display = "block";
+       }
+     });
+   }
+   </script>
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
